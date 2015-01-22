@@ -26,7 +26,7 @@ module.exports = function * (next){
   co(logFile(msg));
 }
 function *logFile(msg) {
-  var stream = fs.createWriteStream('./log', {flags: 'a'});
+  var stream = fs.createWriteStream('./appLog.log', {flags: 'a'});
   stream.write(msg + '\n');
   stream.end('Logged: ' + new Date + '\n------------------------------------------------------------------------------\n');
 }
