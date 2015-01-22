@@ -14,7 +14,7 @@ var koa     = require('koa'),
 app.use(logger);
 
 /* Serve static content from static folder */
-app.use( $router.get( '/', _static( './static' ) ) ); // Render static content on root route
+app.use(_static( './static' )); // Render static content on root route
 
 // USERS API
 app.use($router.post('/users',        users.create)); // CREATE new users
