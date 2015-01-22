@@ -1,5 +1,5 @@
 # MiKA Stack 
-(MongoDB, io.js, Koa, Angular.JS)
+(Monk, io.js, Koa, Angular.JS)
 
 
 ## Getting started
