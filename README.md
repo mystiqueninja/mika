@@ -3,7 +3,10 @@
 
 
 ## Getting started
-Make sure you have an instance of mongoDB running
-Clone the repo: `git clone https://github.com/mystiqueninja/mika.git`
-Install io.js: `nvm install iojs` + `nvm use iojs`
-cd to app dir: `cd mika` + `npm start`
+<ul>
+  <li>Make sure you have an instance of mongoDB running and that you update config/database.js</li>
+  <li>Clone the repo: `git clone https://github.com/mystiqueninja/mika.git`</li>
+  <li>Install io.js: `nvm install iojs` + `nvm use iojs`</li>
+  <li>cd to app dir: `cd mika`</li>
+  <li>start the app: `npm start` or `iojs --es_staging app.js`</li> 
+</ul>
