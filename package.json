@@ -5,7 +5,7 @@
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node app.js --es_staging;"
+    "start": "node --es_staging app.js"
   },
   "author": "",
   "license": "ISC",
@@ -21,6 +21,8 @@
     "koa-socket": "^0.3.0",
     "koa-static": "^1.4.8",
     "koa-stylus": "0.0.3",
-    "monk": "^0.9.1"
+    "monk": "^0.9.1",
+    "monk-prove": "0.0.4",
+    "prove-it": "^0.2.0"
   }
 }

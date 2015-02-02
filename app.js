@@ -23,6 +23,7 @@ app.use($router.get('/users/:id',     users.getOne)); // READ/GET single user fr
 app.use($router.put('/users/:id',     users.update)); // UPDATE a users information
 app.use($router.delete('/users/:id',  users.remove)); // DELETE a user document
 
+
 /* Catch 404 errors */
 app.use(_['404']); 
 

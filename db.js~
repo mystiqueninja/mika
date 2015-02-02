@@ -1,5 +1,5 @@
 "use strict";
-var config = require('./db.json');
+var config = require('./config/database');
 var monk = require('monk');
 var wrap = require('co-monk');
 var dbConnect = `${config.host}/${config.database}`;

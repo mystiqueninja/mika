@@ -13,4 +13,3 @@ module.exports['404'] = function* (next){
   this.body = this.response;
   yield next;
 };
-

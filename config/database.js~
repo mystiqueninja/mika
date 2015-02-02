@@ -1,0 +1,33 @@
+"use strict";
+/*
+* All database settings
+*/
+
+class Database {
+  constructor() {
+    this.host = 'localhost';
+    this.database = 'test';
+    //this.username: 'tyrell';
+    //this.password: 'secretsecretsecret';
+    //this.port: 1227;
+    this.collections = [
+      'users',
+      'products'
+    ];
+  }
+  
+  connectionString() {
+    if (this.port) {
+      var conStr = `${this.host}:${this.port}/${this.database}`;
+    } else {
+      var conStr = `${this.host}/${this.database}`;
+    }
+    if (this.username && this.password) {
+      let auth = `${this.username}:${this.password}`;
+      let tmp = `${auth}@${conStr}`;
+      conStr = tmp;
+    }
+    return conStr;
+  }
+}
+module.exports = new Database();

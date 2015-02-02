@@ -1,6 +1,6 @@
 "use strict";
 var parse = require('co-body');
-var users = require('../db.js').users;
+var users = require('../config/database').collections.users;
 
 module.exports.get = function *get() {
   this.body = yield users.find({});
