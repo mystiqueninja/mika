@@ -1,4 +1,6 @@
 # MiKA Stack 
+
+[![Join the chat at https://gitter.im/mystiqueninja/mika](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/mystiqueninja/mika?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 (Monk, io.js, Koa, Angular.JS)
 
 
